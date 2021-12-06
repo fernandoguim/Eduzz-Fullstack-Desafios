@@ -7,60 +7,45 @@ espero que tenha te ajudado.
 ⭐ star
 
  
-## Resolvendo Desafios Básicos em JavaScript
+## Resolvendo desafios em JavaScript
 
 ```
-1 / 3 - Múltiplos <p>
+1 / 3 - Quadrado de Pares
 
+let lines = gets().split('\n');
+
+var N = parseInt(lines.shift());
+for (i=1; i<= N; i++) {
+	if (i % 2 ==0) print(i + "^2 = " + (i*i));    //escreva sua lógica nos espaços em branco
+}
+
+```
+ 
+ 
+```
+2 / 3 - Resto 2
+
+
+let lines = gets().split('\n');
+
+let N = parseInt(lines.shift());
+for (i = 1 ; i <= 10000 ; i ++) {
+	if (i % N ==2) print(i);
+}
+
+```
+ 
+
+```
+3 / 3 - Nossos Dias Nunca Voltarão
+ 
 let lines = gets().split("\n");
 
-let line = lines.shift().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
-
-if (A % B == 0) 
-    print("Sao Multiplos");                   //complete com a sua lógica
-else 
-print("Nao sao Multiplos");
-```
-<p>
- 
-```
-2 / 3 - Teste de Seleção 1<p>
+let n = parseInt(lines.shift());
+let f = "LIFE IS NOT A PROBLEM TO BE SOLVED";
 
 
-x = gets().split(" ");
+console.log(f.substring(0, n));
 
-A = parseInt(x[0]);
-
-B = parseInt(x[1]);
-
-C = parseInt(x[2]);
-
-D = parseInt(x[3]);
-
-if (B > C && D > A && (C+D) > (A+B) && C >= 1 && D >= 1 && A % 2 == 0){
-
- print("Valores aceitos"); 
-
-}
-
-else {
-
- print("Valores nao aceitos");
-
-}
-```
- <p>
-
-```
-3 / 3 - Folha de Pagamento<p>
- 
-let valor1 = parseInt(gets()); 
-let valor2 = parseInt(gets()); 
-let valor3 = parseFloat(gets()); 
-let salario = parseFloat(valor2 * valor3).toFixed(2);
-console.log("NUMBER = " + valor1);
-console.log("SALARY = U$ " + salario);
  
  ```
