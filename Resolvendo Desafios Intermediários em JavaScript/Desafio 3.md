@@ -7,10 +7,10 @@ espero que tenha te ajudado.
 ⭐ star
 
  
-## Resolvendo Desafios Básicos em JavaScript
+## Resolvendo Desafios Intermediários em JavaScript
 
 ```
-1 / 3 - Triângulo <p>
+1 / 3 - Triângulo  
 
 let lines = gets().split('\n')
 
@@ -46,10 +46,10 @@ if (triangulo) {
     }
    
 ```
-<p>
+ 
  
 ```
-2 / 3 - Tomadas <p>
+2 / 3 - Tomadas 
 
  let lines = gets().split("\n");
 
@@ -68,11 +68,11 @@ let total = ((T1+T2+T3+T4)-3);
 print(total);
  
 ```
- <p>
+  
 
 ```
-3 / 3 - Polígonos Regulares Simples <p>
- 
+3 / 3 - Polígonos Regulares Simples 
+
 let lines = gets().split("\n");
 let line = lines.shift().split(' ');
 
