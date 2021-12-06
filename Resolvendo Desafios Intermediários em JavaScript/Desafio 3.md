@@ -10,57 +10,79 @@ espero que tenha te ajudado.
 ## Resolvendo Desafios Básicos em JavaScript
 
 ```
-1 / 3 - Múltiplos <p>
+1 / 3 - Triângulo <p>
 
-let lines = gets().split("\n");
+let lines = gets().split('\n')
 
 let line = lines.shift().split(" ");
-let A = parseInt(line[0]);
-let B = parseInt(line[1]);
+let A = parseFloat(line[0]);
+let B = parseFloat(line[1]);
+let C = parseFloat(line[2]);
+let maior;
+let soma;
+let triangulo;
+let perimetro = A+B+C ;
+let area = (((A+B)* C / 2)) ;
 
-if (A % B == 0) 
-    print("Sao Multiplos");                   //complete com a sua lógica
-else 
-print("Nao sao Multiplos");
+
+if (A > B && A > C) maior = A;
+else if (B > C) maior = B;
+else maior = C;
+
+if (maior == A) soma = B + C;
+else if (maior == B) soma = A + C;
+else soma = B + A;
+
+if (soma > maior) triangulo = true;
+else triangulo = false;
+
+if (triangulo) {
+ print("Perimetro = " + perimetro.toFixed(1));
+     
+
+} else {
+  print("Area = " + area.toFixed(1));
+
+    }
+   
 ```
 <p>
  
 ```
-2 / 3 - Teste de Seleção 1<p>
+2 / 3 - Tomadas <p>
+
+ let lines = gets().split("\n");
 
 
-x = gets().split(" ");
+let line = lines.shift().split(' ');
+//escreva aqui o seu código
 
-A = parseInt(x[0]);
+let T1 = parseInt(line[0]);
+let T2 = parseInt(line[1]);
+let T3 = parseInt(line[2]);
+let T4 = parseInt(line[3]);
 
-B = parseInt(x[1]);
 
-C = parseInt(x[2]);
+let total = ((T1+T2+T3+T4)-3);
 
-D = parseInt(x[3]);
-
-if (B > C && D > A && (C+D) > (A+B) && C >= 1 && D >= 1 && A % 2 == 0){
-
- print("Valores aceitos"); 
-
-}
-
-else {
-
- print("Valores nao aceitos");
-
-}
+print(total);
+ 
 ```
  <p>
 
 ```
-3 / 3 - Folha de Pagamento<p>
+3 / 3 - Polígonos Regulares Simples <p>
  
-let valor1 = parseInt(gets()); 
-let valor2 = parseInt(gets()); 
-let valor3 = parseFloat(gets()); 
-let salario = parseFloat(valor2 * valor3).toFixed(2);
-console.log("NUMBER = " + valor1);
-console.log("SALARY = U$ " + salario);
+let lines = gets().split("\n");
+let line = lines.shift().split(' ');
+
+let N = parseInt(line[0]);
+let L = parseInt(line[1]);
+
+let P = N * L;
+
+if (N >= 3 && N <= 1000000 && L >= 1 && L <= 4000){
+  print(P);
+}
  
  ```
