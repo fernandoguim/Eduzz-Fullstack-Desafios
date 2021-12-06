@@ -7,8 +7,6 @@ espero que tenha te ajudado.
 ⭐ star
 
 ```
-Resolvendo Desafios Básicos em JavaScript
-
 Resolvendo Desafios Básicos em JavaScript <p>
 Resolvendo Desafios em JavaScript <p>
 Resolvendo Desafios Intermediários em JavaScript <p>
