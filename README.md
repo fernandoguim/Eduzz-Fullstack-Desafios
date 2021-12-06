@@ -9,9 +9,9 @@ espero que tenha te ajudado.
 ```
 Resolvendo Desafios Básicos em JavaScript
 
-1 / 3 - Múltiplos <p>
-2 / 3 - Teste de Seleção 1<p>
-3 / 3 - Folha de Pagamento<p>
+Resolvendo Desafios Básicos em JavaScript <p>
+Resolvendo Desafios em JavaScript <p>
+Resolvendo Desafios Intermediários em JavaScript <p>
 ```
 
 
