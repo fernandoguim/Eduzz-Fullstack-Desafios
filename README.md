@@ -3,13 +3,13 @@ Segue desafios que constam no Eduzz Fullstack Developer #2
 
 espero que tenha te ajudado.
 
-👩‍👩‍👧‍👦 não deixe de dar seu followers
+👩‍👩‍👧‍👦 Não deixe de dar seu followers
 ⭐ star
 
 ```
-Resolvendo Desafios Básicos em JavaScript <p>
-Resolvendo Desafios em JavaScript <p>
-Resolvendo Desafios Intermediários em JavaScript <p>
+Resolvendo Desafios Básicos em JavaScript
+Resolvendo Desafios em JavaScript
+Resolvendo Desafios Intermediários em JavaScript
 ```
 
 
