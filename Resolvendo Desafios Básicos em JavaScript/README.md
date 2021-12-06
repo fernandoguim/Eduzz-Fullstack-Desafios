@@ -1,4 +1,4 @@
-# Eduzz-Fullstack-Desafios
+## Eduzz-Fullstack-Desafios
 Segue desafios que constam no Eduzz Fullstack Developer #2
 
 espero que tenha te ajudado.
@@ -7,8 +7,9 @@ espero que tenha te ajudado.
 ⭐ star
 
  
-Resolvendo Desafios Básicos em JavaScript
+## Resolvendo Desafios Básicos em JavaScript
 
+```
 1 / 3 - Múltiplos <p>
 
 let lines = gets().split("\n");
@@ -21,8 +22,10 @@ if (A % B == 0)
     print("Sao Multiplos");                   //complete com a sua lógica
 else 
 print("Nao sao Multiplos");
-
-
+```
+<p>
+ 
+```
 2 / 3 - Teste de Seleção 1<p>
 
 
@@ -47,8 +50,10 @@ else {
  print("Valores nao aceitos");
 
 }
+```
+ <p>
 
-
+```
 3 / 3 - Folha de Pagamento<p>
  
 let valor1 = parseInt(gets()); 
@@ -57,5 +62,5 @@ let valor3 = parseFloat(gets());
 let salario = parseFloat(valor2 * valor3).toFixed(2);
 console.log("NUMBER = " + valor1);
 console.log("SALARY = U$ " + salario);
-
-// Escreva o seu código aqui
+ 
+ ```
